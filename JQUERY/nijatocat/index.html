@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $('.cat1').click(function(){
+                $(this).toggle();
+            
+            });
+            $('button').click(function(){
+                $('.showimg').show();
+            });
+
+
+        });
+
+    </script>
+    <ul>
+        <li><img class="cat1" src="./img/cat0.png"  alt="cat1"></li>
+        <li><img class="cat2" src="./img/cat1.png" alt="cat1"></li>
+        <li><img class="cat3" src="./img/cat2.png" alt="cat1"></li>
+        <li><img class="cat4" src="./img/cat3.png" alt="cat1"></li>
+        <li><img class="cat5" src="./img/cat4.png" alt="cat1"></li>  
+    </ul>
+    <img class="ninja1" src="./img/ninja0.png" alt="">
+</body>
+
+</html>
+
+<!-- $('img').click(function(){
+    $(this).fadeOut();
+});
+$('button').click(function(){
+    $('.showimg').show();
+}); -->

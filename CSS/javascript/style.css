@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+
+    .wrapper{
+    background-color: darkblue;
+    width: 970px;
+    color: aquamarine;
+    padding: 5px;    
+    }
+
+    .header{
+    background-color: darkred;
+    border-radius: 25px;
+    height: 60px;
+    margin-bottom: 5px;
+    padding: 10px;
+    }
+
+    
+    .description{
+    background-color: teal;
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 25px;
+    vertical-align: top;
+    padding: 10px;
+    }
+
+    .maincontent{
+    background-color: teal;
+    width: 700px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 10px;
+    }
+
+}   
